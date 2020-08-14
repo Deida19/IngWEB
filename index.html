@@ -3,41 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ejemplo Ingenieria WEB</title>
+  <title>Taller Ingenieria Web</title>
 </head>
 <body>
-    <div style="background-color:#091F6D; color:#F5F6EC; height:80px">
-        <h1 style="font-size:30px; text-align:center; vertical-align: middle;">HOJA DE VIDA</h1>
+  <header>
+    <div id="divTitulo" class="divTitulo">
+      <h1 id="titulo" class="titulo">
+        HOJA DE VIDA
+      </h1>
     </div>
-    
-    <div style="height: 100%; width: 160px; position: fixed; z-index: 1; top: 0px; left: 0; background-color: #5C5E63 ; overflow-x: hidden; padding-top: 100px;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS59YZ5ZS-7LAPTknb4CT9LzT6vJjkpZpXqHQ&usqp=CAU" style = "width:100px;height:100px"/>
-        <a href="#" Style="background-color: #091F6D;color: white; top: 20px;display: block;padding: 12px;text-decoration: none;">Presentacion</a>
-        <a href="/IngWEB/dtPersonales.html" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Personales</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Académicos</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Laborales</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Referencias</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Contacto</a>
+  </header>
+  <section>
+    <div id="menu1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS59YZ5ZS-7LAPTknb4CT9LzT6vJjkpZpXqHQ&usqp=CAU" class="imagen"/>
+      <div>
+        <a href="/IngWEB/dtPersonales.html" class="link">Datos Personales</a>
+        <a href="#" class="link">Datos Académicos</a>
+        <a href="#" class="link">Datos Laborales</a>
+        <a href="#" class="link">Datos Referencias</a>
+        <a href="#" class="link">Contacto</a>
+      </div>  
     </div>
-    <div style="height: 100%; width: 91%; position: fixed; z-index: 1; top: 90px; right: 5px; background-color:#DFE2EA; overflow-x: hidden; padding-top: 100px;text-align: center;">
-        <h2>
-            <span>.:: SOBRE MI ::.</span> 
-        </h2>
-        <div style="align-content: center;">
-            <img src="https://img.lovepik.com/element/40145/1025.png_860.png" style = "width:120px;height:120px; align-self: center;"/>
-        </div>
-        
-        <br>
-        <div style="align-content: center;">
-            <p style="font-size:20px; width:80%; height:80%; left: 50px;text-align:center; align-content: center; margin-left: 80px; margin-right: 40px;"> 
-                Soy una persona amable, paciente y comunicativa. 
+    <div id="contenido">
+      <h2> .:: SOBRE MI ::. </h2>
+      <img src="https://img.lovepik.com/element/40145/1025.png_860.png" class="imagen"/>
+      <div>
+        <p class="texto">
+          Soy una persona amable, paciente y comunicativa. 
                 Tengo muy buenas relaciones interpersonales por lo cual se me facilita el trabajo en equipo y aprendo rápidamente. 
                 Disfruto del constante aprendizaje, lo cual ha significado para mi trayectoria profesional, una gran ventaja en la medida en que presto especial interés a la innovación y la mejora continua de las tareas y los procesos en los cuales me involucro. 
                 Como profesional, Me interesa estar aprendiendo sobre nuevas tecnologias que me permitan mejorar en la forma de hacer mi trabajo. 
-            </p>
-        </div>
-        
+        </p>
+      </div>
     </div>
-  
+  </section>
+  <footer>
+    <div>
+      @Deisy Martinez Riuz - Ingeniería Web
+    </div>
+  </footer>
 </body>
 </html>
