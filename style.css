@@ -29,16 +29,22 @@
   display: block;
   padding: 12px;
   text-decoration: none;
-  width:150px;
+  width:100%;
   height:30px;
 }
 
+a:hover {
+  background-color:#091F6D;
+  color:#F5F6EC;
+  font-size:25px;
+}
 
 div{
   margin-top:20px;
 }
 
 #menu1{
+  font-size:18px; 
   height: 100%; 
   width: 10%; 
   position: fixed; 
@@ -65,13 +71,12 @@ div{
 }
 
 .texto{
-  font-size:20px; 
-  width:80%; 
-  height:80%; 
-  left: 50px;
+  font-size:22px; 
+  width:70%; 
+  height:100%; 
   text-align:justify; 
   align-content: center; 
-  margin-left: 100px; 
-  margin-right: 10px;
+  margin-left: 15%; 
+  margin-right: 20%;
 }
 
