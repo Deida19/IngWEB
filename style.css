@@ -1,6 +1,6 @@
 .divTitulo{
   background-color:#091F6D;
-  width:1200px;
+  width:100%;
   height: 80px;
 }
 
@@ -36,7 +36,7 @@ div{
 
 #menu1{
   height: 100%; 
-  width: 160px; 
+  width: 10%; 
   position: fixed; 
   z-index: 1; 
   top: 100px; 
@@ -49,11 +49,11 @@ div{
 
 #contenido{
   height: 800px; 
-  width: 800px; 
+  width: 90%; 
   position: left; 
   z-index: 1; 
   top: 0px; 
-  right: 5px; 
+  margin-left: 185px;
   background-color:#DFE2EA; 
   overflow-x: hidden; 
   padding-top: 120px;
