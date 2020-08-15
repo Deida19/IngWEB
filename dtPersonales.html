@@ -3,82 +3,97 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ejemplo Ingenieria WEB</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Taller Ingenieria Web</title>
 </head>
 <body>
-    <div style="background-color:#091F6D; color:#F5F6EC; height:80px">
-        <h1 style="font-size:30px; text-align:center; vertical-align: middle;">HOJA DE VIDA</h1>
+  <header>
+    <div id="divTitulo" class="divTitulo">
+      <h1 id="titulo" class="titulo"> 
+        HOJA DE VIDA
+      </h1>
     </div>
-    
-    <div style="height: 100%; width: 160px; position: fixed; z-index: 1; top: 0px; left: 0; background-color:  #5C5E63; overflow-x: hidden; padding-top: 100px;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS59YZ5ZS-7LAPTknb4CT9LzT6vJjkpZpXqHQ&usqp=CAU" style = "width:100px;height:100px"/>
-        <a href="/IngWEB/index.html" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Presentación</a>
-        <a href="#" Style="background-color: #091F6D;color: white; top: 20px;display: block;padding: 12px;text-decoration: none;">Datos Personales</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Académicos</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Laborales</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Datos Referencias</a>
-        <a href="#" Style="background-color: #eee;color: black;display: block;padding: 12px;text-decoration: none;">Contacto</a>
+  </header>
+  <section>
+    <div id="menu1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS59YZ5ZS-7LAPTknb4CT9LzT6vJjkpZpXqHQ&usqp=CAU" class="imagen"/>
+      <div>
+        <a href="/IngWEB/index.html" class="link">Presentación</a>
+        <a href="/IngWEB/dtPersonales.html" class="link">Datos Personales</a>
+        <a href="#" class="link">Datos Académicos</a>
+        <a href="#" class="link">Datos Laborales</a>
+        <a href="#" class="link">Datos Referencias</a>
+        <a href="#" class="link">Contacto</a>
+      </div>  
     </div>
-    <div style="height: 100%; width: 91%; position: fixed; z-index: 1; top: 90px; right: 5px; background-color:#DFE2EA; overflow-x: hidden; padding-top: 100px;">
-        <div style="text-align: center;">
-            <h2>
-                .:: DATOS PERSONALES ::.
-            </h2>
-        </div>
-        <br>
-        <div style="font-size:20px;"> 
-            <div >
-                <label style=" text-align: right; margin-left: 600px;">Nombres: </label>
-                <input type="text" name="texto" id="txtNombre"; style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style=" text-align: right;margin-left: 600px">Apellidos:</label>
-                <input type="text" name="texto2" id="txtApellido" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style=" text-align: right;margin-left: 600px">Identificacion: </label>
-                <input type="text" name="texto3" id="txtIdentificacion" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style=" text-align: right;margin-left: 600px">Fecha de Nacimiento: </label>
-                <input type="text" name="texto4" id="txtFechaNac" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style=" text-align: right;margin-left: 600px">Estado Civil: </label>
-                <br>
-                <label for="rdb1" style=" text-align: right;margin-left: 600px">Femenino</label>
-                <input type="radio" name="radio" id="rdb1" style="width: 200px; margin-left: 100px">
-                <label for="rdb1" style=" text-align: right;margin-left: 300px">Masculino</label>
-                <input type="radio" name="radio2" id="rdb2" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style="text-align: right;margin-left: 600px">Telefono: </label>
-                <input type="text" name="texto6" id="txtTelefono" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style="text-align: right;margin-left: 600px">Telefono: </label>
-                <input type="text" name="texto6" id="txtTelefono" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style="text-align: right;margin-left: 600px">Pais: </label>
-                <input type="text" name="texto7" id="txtPais" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-            <div>
-                <label style="text-align: right;margin-left: 600px">Departamento: </label>
-                <input type="text" name="texto7" id="txtTDepartamento" style="width: 200px; margin-left: 100px">
-            </div>
-            <br>
-        </div>
+    <div id="contenido">
+        <h2> .:: DATOS PERSONALES ::. </h2>
         
+        <div>
+          <form>
+            <table>
+              <tr>
+                <td class="td1">
+                  <label class="label1">Nombre:</label>
+                  <input type="text" name="nombre" size="20" class="text1" Value="Paula Camila" disabled></p>
+                </td>
+                <td class="td1">
+                  <label class="label1">Apellido:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="Gomez Ruiz" disabled></p>
+                </td>
+              </tr>
+      
+              <tr>
+                <td>
+                  <label class="label1">Tipo Identificación:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="Cedula" disabled></p>
+                </td>
+                <td>
+                  <label class="label1">Número:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="10204323" disabled></p>
+                 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="label1">Fecha Nacimiento:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="01/12/1890" disabled></p>
+                </td>
+                <td>
+                   <label class="label1">Genero:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="Femenino" disabled></p>
+                </td>
+              </tr>
+             <tr>
+                <td>
+                  <label class="label1">Estado Civil:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="Casada" disabled></p>
+                </td>
+                <td>
+                  <label class="label1">Nacionalidad:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="Colombiana" disabled></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="label1">Correo:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="PaulaCGomez@Gmail.com" disabled></p>
+                </td>
+                <td>
+                  <label class="label1">Telefono:</label>
+                  <input type="text" name="nombre" size="20" class="text1" value="3214325454" disabled></p>
+                </td>
+              </tr>
+            </table>
+          </form>
+          
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div>
+      @Deisy Martinez Riuz - Ingeniería Web
     </div>
-  
+  </footer>
 </body>
 </html>
