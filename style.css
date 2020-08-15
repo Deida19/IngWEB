@@ -39,6 +39,12 @@ a:hover {
   font-size:25px;
 }
 
+a:active{
+  background-color:#091F6D;
+  color:#151918;
+}
+
+
 div{
   margin-top:20px;
 }
