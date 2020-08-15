@@ -85,3 +85,34 @@ div{
   margin-right: 20%;
 }
 
+.label1{
+  text-align:left;
+  height:30px;
+  color: #091F6D;
+  width:90%;
+  font-size:20px;
+  display: inline-block;
+}
+
+form {
+  margin: 0 auto;
+  width: 900px;
+  padding: 3em;
+  border: 1px solid #CCC;
+  border-radius: 2em;
+}
+
+.td1 {
+  width:20%;
+}
+
+input, text {
+  font: 1em sans-serif;
+  width: 350px;
+  height:30px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  vertical-align: top;
+  
+
+}
